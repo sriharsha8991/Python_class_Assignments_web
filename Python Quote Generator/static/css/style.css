@@ -1,0 +1,36 @@
+body {
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; Updated font stack */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    height: 100vh;
+    /* background: linear-gradient(to bottom right, #f4f4f4, #e0e0e0); Gradient background */
+    /* margin:10px 3px 7px 6px; */
+    margin:0; /* Reset default margin */
+   
+}
+
+.quote-container {
+    text-align: center;
+    padding: 30px; /* Increased padding */
+    border: 1px solid  rgb(0, 0, 0);
+    background-color: #fbfbfb;
+    max-width: 500px; /* Limit width for very wide screens */
+    border-radius: 80px; /* Rounded corners */
+}
+button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none; /* Remove default border */
+    background-color: #007BFF; /* Default bootstrap blue */
+    color: #fff; /* White text */
+    cursor: pointer; /* Hand cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.2s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #27b300; /* Darker shade of blue on hover */
+}
+
